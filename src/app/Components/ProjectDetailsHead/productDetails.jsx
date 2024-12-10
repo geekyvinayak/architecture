@@ -1,7 +1,9 @@
 'use client'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SlickSlider from "./slider";
+import SlickSlider from dynamic(() => import("./slider"),
+  { ssr: false }
+)
 
 
 export default function ProductDetails() {
