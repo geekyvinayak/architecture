@@ -13,7 +13,7 @@ export default function HeroSection() {
     <div
       className="ImageBackgroundWrap flex bg-cover bg-center bg-fixed h-[100vh]"
       style={{
-        backgroundImage: 'url(/images/architecture%20projects/hotel%20elevation%20at%20anand/main%20photo/1.%20front%20view.png)',
+        backgroundImage: 'url(/images/herosection.avif)',
       }}
     >
       {/* Content Section */}
