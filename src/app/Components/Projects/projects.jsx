@@ -21,7 +21,6 @@ const ProjectSection = () => {
                 width={500}
                 height={500}
                 className="w-full h-full object-cover"
-                quality={50}
               />
               </Link>
             </div>

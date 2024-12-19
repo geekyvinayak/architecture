@@ -12,7 +12,7 @@ const SlickSlider = ({images}) => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 2500,
+    speed: 500,
     autoplay: true,
     autoplaySpeed: 5000,
     slidesToScroll: 1,
