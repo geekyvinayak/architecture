@@ -16,7 +16,6 @@ export default function ProductDetails() {
   const projectData = useMemo(() => {
     return projects.find(item => item.id == id);
   }, [id]);
-  console.log("pd",projectData)
   return (
     <section className="space-y-16 py-16">
       <div className="lg:px-16 px-8 flex flex-col lg:flex-row items-center lg:space-x-16 space-y-12 lg:space-y-0 justify-center">
