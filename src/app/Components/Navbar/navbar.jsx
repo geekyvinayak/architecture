@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import Link from "next/link";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,12 +10,12 @@ export default function Navbar() {
   return (
     <header className="bg-white text-black shadow-lg w-full z-50">
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold">LOGO</div>
+        <Link href='/'><div className="text-2xl font-bold">LOGO</div></Link>
 
         <div className="hidden md:flex space-x-6">
-          <a href="#" className="hover:text-gray-600">Home</a>
-          <a href="#services" className="hover:text-gray-600">About</a>
-          <a href="#portfolio" className="hover:text-gray-600">Lets Connect!</a>
+          <a href="/" className="hover:text-gray-600">Home</a>
+          <a href="/about-us" className="hover:text-gray-600">About</a>
+          <a href="#footer" className="hover:text-gray-600">Lets Connect!</a>
         </div>
 
         {/* Mobile Menu Toggle with Animation */}

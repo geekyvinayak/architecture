@@ -1,7 +1,7 @@
 'use client'
 export default function HeroSection() {
   return (
-    <section className="space-y-16">
+    <section className="space-y-16 mt-2">
 
       {/* Background Image Section with Container */}
       <div className="lg:homepage-container relative min-h-screen lg:px-16"> {/* Apply padding on large screens only */}
@@ -13,7 +13,7 @@ export default function HeroSection() {
     <div
       className="ImageBackgroundWrap flex bg-cover bg-center bg-fixed h-[100vh]"
       style={{
-        backgroundImage: 'url(https://static.wixstatic.com/media/94e66f_5401b56592d94995a01a664477312be6~mv2_d_5714_3677_s_4_2.jpg/v1/fill/w_980,h_800,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/94e66f_5401b56592d94995a01a664477312be6~mv2_d_5714_3677_s_4_2.jpg)',
+        backgroundImage: 'url(/images/architecture%20projects/hotel%20elevation%20at%20anand/main%20photo/1.%20front%20view.png)',
       }}
     >
       {/* Content Section */}

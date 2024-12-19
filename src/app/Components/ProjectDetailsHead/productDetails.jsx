@@ -2,28 +2,38 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import dynamic from 'next/dynamic';
+import { useSearchParams } from "next/navigation";
 const SlickSlider = dynamic(() => import('./slider'), {
   ssr: false // This ensures the component is not SSR'd
 });
+import { projects } from '@/app/constants';
+import { useMemo } from "react";
 
 export default function ProductDetails() {
+  const searchParams = useSearchParams()
+ 
+  const id = searchParams.get('id')
+  const projectData = useMemo(() => {
+    return projects.find(item => item.id == id);
+  }, [id]);
+  console.log("pd",projectData)
   return (
     <section className="space-y-16 py-16">
       <div className="lg:px-16 px-8 flex flex-col lg:flex-row items-center lg:space-x-16 space-y-12 lg:space-y-0 justify-center">
         {/* Text Section */}
         <div className="w-full lg:w-1/2 text-center lg:text-left self-center">
           <div className="p-4 lg:p-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Project Title</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">{projectData.name}</h2>
             <p className="text-lg text-gray-700 mb-6 font-medium">
-              Project description section 1
+              {projectData.category}
             </p>
             <p className="text-lg text-gray-700 mb-6 font-medium">
-            A design philosophy is a set of principles that guide how something is designed. It can include principles related to aesthetics, functionality, usability, or other aspects of the design process. A strong design philosophy can help ensure that a design is effective, cohesive, and meets the needs of its users
+            {projectData.description}
             </p>
             </div>
         </div>
       </div>
-        <SlickSlider />
+        <SlickSlider images={projectData?.gallery}/>
     </section>
   );
 }

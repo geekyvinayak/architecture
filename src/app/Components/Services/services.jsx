@@ -45,7 +45,7 @@ const MyServices = () => {
             </div>
           ))}
         </div>
-        <div className="justify-center flex items-center mt-16 mb-8"><div className="border-black border-2 px-6 py-2 cursor-pointer transform hover:scale-105 transition duration-300 ease-in-out font-medium">View All Services</div></div>
+        {/* <div className="justify-center flex items-center mt-16 mb-8"><div className="border-black border-2 px-6 py-2 cursor-pointer transform hover:scale-105 transition duration-300 ease-in-out font-medium">View All Services</div></div> */}
       </div>
     </section>
   );

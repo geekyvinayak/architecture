@@ -2,7 +2,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-12">
+    <footer className="bg-white py-12" id='footer'>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Heading */}
         <h2 className="text-2xl font-semibold mb-8">Lets Connect!</h2>
