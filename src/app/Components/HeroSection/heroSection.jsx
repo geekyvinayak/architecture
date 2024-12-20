@@ -11,7 +11,7 @@ export default function HeroSection() {
 
     {/* Background Image Section */}
     <div
-      className="ImageBackgroundWrap flex bg-fit bg-center bg-fixed h-[100vh]"
+      className="ImageBackgroundWrap flex bg-cover bg-center bg-fixed h-[100vh]"
       style={{
         backgroundImage: 'url(/images/herosection.avif)',
       }}
