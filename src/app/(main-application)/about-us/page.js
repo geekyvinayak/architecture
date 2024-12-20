@@ -1,8 +1,8 @@
-import OurProcess from "../Components/OurProcess";
-import OurStory from "../Components/OurStory";
-import OurValues from "../Components/OurValues";
-import Philosophy from "../Components/Philosphy";
-import WhoWeAre from "../Components/WhoWeAre";
+import OurProcess from "../../Components/OurProcess";
+import OurStory from "../../Components/OurStory";
+import OurValues from "../../Components/OurValues";
+import Philosophy from "../../Components/Philosphy";
+import WhoWeAre from "../../Components/WhoWeAre";
 
 export default function AboutUS() {
   return (
@@ -19,7 +19,7 @@ export default function AboutUS() {
 <div
 className="ImageBackgroundWrap flex bg-cover bg-center bg-fixed h-[50vh]"
 style={{
-  backgroundImage: 'url(https://static.wixstatic.com/media/94e66f_6b59effee9b0403f95c63c8507c9b9b8~mv2_d_5492_4442_s_4_2.jpg/v1/fill/w_1191,h_1095,fp_0.59_0.22,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/94e66f_6b59effee9b0403f95c63c8507c9b9b8~mv2_d_5492_4442_s_4_2.jpg)',
+  backgroundImage: 'url(/images/image_1.avif)',
 }}
 >
 {/* Content Section */}

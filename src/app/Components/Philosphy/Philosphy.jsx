@@ -30,7 +30,7 @@ export default function Philosophy({isAboutUsPage = false}) {
         {/* Image Section */}
         <div className="w-full lg:w-1/2 order-1 lg:order-2">
           <img
-            src="https://static.wixstatic.com/media/94e66f_a8fa14ee9a3a420894e210ea87758c5a~mv2_d_6329_4794_s_4_2.jpg/v1/fill/w_1333,h_1093,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/94e66f_a8fa14ee9a3a420894e210ea87758c5a~mv2_d_6329_4794_s_4_2.jpg"
+            src="/images/image_2.avif"
             alt="Person working"
             className="w-full h-auto object-cover rounded-lg"
           />

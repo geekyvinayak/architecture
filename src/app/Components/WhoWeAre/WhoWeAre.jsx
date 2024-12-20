@@ -11,7 +11,7 @@ export default function WhoWeAre({isAboutUsPage = false}) {
          {/* Image Section */}
       <div className="w-full lg:w-1/2">
           <img
-            src="https://cdn.shopify.com/s/files/1/0051/0951/4304/files/4_5b2444bf-a308-4761-a2f4-20967e5e9797_480x480.png?v=1605536955"
+            src="/images/image_3.webp"
             alt="Person working"
             className="w-full h-[500px] object-cover   rounded-lg"
           />

@@ -37,7 +37,7 @@ export default function OurStory() {
         {/* Image Section */}
         <div className="w-full lg:w-1/2">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIW-JXoPZoqLKv8LststsNewe3_F1q4q448Q&s"
+            src="/images/image_6.png"
             alt="Our Story"
             className="w-full h-[500px] object-cover rounded-lg"
           />

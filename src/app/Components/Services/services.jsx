@@ -4,17 +4,17 @@ const MyServices = () => {
   const services = [
     {
       id: 1,
-      src: "https://www.shutterstock.com/image-vector/house-traditional-architecture-plan-3d-600nw-2348676345.jpg",
+      src: "/images/service_1.webp",
       title: "Home Styling Workshop",
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400",
+      src: "/images/service_2.jpeg",
       title: "Full Interior Styling",
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400",
+      src: "/images/service_3.jpeg",
       title: "Small Space Makeover",
     },
   ];

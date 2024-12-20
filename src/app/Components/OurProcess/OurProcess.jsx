@@ -41,7 +41,7 @@ export default function OurProcess() {
         {/* Image Section */}
         <div className="w-full lg:w-1/2 order-1 lg:order-2">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTiuEprtitpwbHPWl9WU-qMLY2YpVv3cQMZw&s"
+            src="/images/image_4.jpeg"
             alt="Process steps illustration"
             className="w-full h-[500px] object-cover rounded-lg"
           />

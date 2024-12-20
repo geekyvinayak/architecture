@@ -8,15 +8,15 @@ const Footer = () => {
         <h2 className="text-2xl font-semibold mb-8">Lets Connect!</h2>
 
         {/* Subscription Form */}
-        <form className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+        <form className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center" method='POST' action='https://formsubmit.co/z@gmail.com'>
           <div className="flex flex-col">
             <label htmlFor="firstName" className="text-sm font-medium text-start">
               Name *
             </label>
             <input
               type="text"
-              id="firstName"
-              name="firstName"
+              id="name"
+              name="Name"
               required
               className="border-b border-black outline-none focus:ring-0 py-2"
             />
@@ -27,9 +27,10 @@ const Footer = () => {
               Phone *
             </label>
             <input
-              type="text"
-              id="lastName"
-              name="lastName"
+              type="tel"
+              id="phone"
+              pattern="[0-9]{10}"
+              name="Phone"
               required
               className="border-b border-black outline-none focus:ring-0 py-2"
             />
@@ -42,12 +43,26 @@ const Footer = () => {
             <input
               type="email"
               id="email"
-              name="email"
+              name="Email"
               required
               className="w-full border-b border-black outline-none focus:ring-0 py-2"
             />
           </div>
-
+          <div className="col-span-full text-start">
+            <label htmlFor="email" className="text-sm font-medium text-start">
+              Message *
+            </label>
+            <input
+              type="textarea"
+              id="message"
+              name="Message"
+              required
+              className="w-full border-b border-black outline-none focus:ring-0 py-2"
+            />
+          </div>
+          <input type="hidden" name="_subject" value="New submission! at Maitri Associates" />
+          <input type="hidden" name="_next" value="http://localhost:3000/thankyou" />
+          <input type="hidden" name="_template" value="table" />
           <div className="col-span-full text-right">
             <button
               type="submit"
@@ -85,7 +100,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <p className="text-gray-500 text-sm mt-8">
-        &copy; {new Date().getFullYear()} Design Firm. All Rights Reserved.
+        &copy; {new Date().getFullYear()} Maitri Associates. All Rights Reserved.
           
         </p>
       </div>

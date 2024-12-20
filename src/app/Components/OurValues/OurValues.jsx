@@ -10,7 +10,7 @@ export default function OurValues() {
         {/* Image Section */}
         <div className="w-full lg:w-1/2">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq2xWfbbrGT8LYDjU_JQnHHO891zEHT_skeA&s"
+            src="/images/image_5.jpeg"
             alt="Our Values"
             className="w-full h-[500px] object-cover rounded-lg"
           />
