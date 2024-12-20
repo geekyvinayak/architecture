@@ -17,12 +17,12 @@ export default function Philosophy({isAboutUsPage = false}) {
               We approach every project with fresh eyes, ensuring that each design tells its own story—your story. Our mission is to transform ideas into tangible realities that enhance how people live, work, and interact with their environments.
             </p>
             {!isAboutUsPage && (
-              <Link
+              <a
                 href='/about-us'
                 className="px-6 py-2 border border-gray-900 text-lg text-gray-900 rounded-md hover:bg-gray-900 hover:text-white transition duration-300 font-medium"
               >
                 Learn More
-              </Link>
+              </a>
             )}
           </div>
         </div>

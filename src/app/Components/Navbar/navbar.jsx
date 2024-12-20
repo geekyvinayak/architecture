@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <header className="bg-white text-black shadow-lg w-full z-50">
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <Link href='/'><div className="text-2xl font-bold">LOGO</div></Link>
+        <a href='/'><div className="text-2xl font-bold">LOGO</div></a>
 
         <div className="hidden md:flex space-x-6">
           <a href="/about-us" className="hover:text-gray-600">About</a>

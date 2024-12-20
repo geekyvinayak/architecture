@@ -10,10 +10,10 @@ const ThankYouPage = () => {
           Your email has been successfully submitted. We will get back to you shortly.
         </p>
         <div>
-          <Link href='/'><button className=" text-black px-6 py-3 rounded-full text-lg hover:bg-black hover:text-white  transition duration-300">
+          <a href='/'><button className=" text-black px-6 py-3 rounded-full text-lg hover:bg-black hover:text-white  transition duration-300">
             Go to Home
           </button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

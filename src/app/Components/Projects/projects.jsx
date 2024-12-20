@@ -14,7 +14,7 @@ const ProjectSection = () => {
               key={project.id} 
               className={`relative overflow-hidden rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer bg-white ${project?.main?.colSpan} ${project?.main?.rowSpan} `}
             >
-              <Link href={`/projectdetails?id=${project.id}`}>
+              <a href={`/projectdetails?id=${project.id}`}>
               <Image
                 src={project?.main?.src}
                 alt={project?.name}
@@ -22,7 +22,7 @@ const ProjectSection = () => {
                 height={500}
                 className="w-full h-full object-cover"
               />
-              </Link>
+              </a>
             </div>
           ))}
         </div>
