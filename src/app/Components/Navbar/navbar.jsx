@@ -13,7 +13,6 @@ export default function Navbar() {
         <Link href='/'><div className="text-2xl font-bold">LOGO</div></Link>
 
         <div className="hidden md:flex space-x-6">
-          <a href="/" className="hover:text-gray-600">Home</a>
           <a href="/about-us" className="hover:text-gray-600">About</a>
           <a href="#footer" className="hover:text-gray-600">Lets Connect!</a>
         </div>
@@ -35,9 +34,8 @@ export default function Navbar() {
       {menuOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-white  z-40 flex justify-center items-center mt-16"> {/* mt-16 for navbar height */}
           <div className="flex flex-col space-y-6 text-xl">
-            <a href="#" className="hover:text-gray-600">Home</a>
-            <a href="#services" className="hover:text-gray-600">About</a>
-            <a href="#portfolio" className="hover:text-gray-600">Lets Connect!</a>
+            <a href="/about-us" className="hover:text-gray-600" onClick={() => setMenuOpen(!menuOpen)}>About</a>
+            <a href="#footer" className="hover:text-gray-600" onClick={() => setMenuOpen(!menuOpen)}>Lets Connect!</a>
           </div>
         </div>
       )}
