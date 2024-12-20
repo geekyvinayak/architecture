@@ -26,7 +26,7 @@ const SlickSlider = ({ images }) => {
     infinite: true,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     slidesToScroll: 1,
     variableWidth: isMobile ? false : true,
   };
