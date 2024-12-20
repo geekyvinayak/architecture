@@ -1,10 +1,10 @@
 'use client'
 export default function HeroSection() {
   return (
-    <section className="space-y-16 mt-2">
+    <section className="space-y-16">
 
       {/* Background Image Section with Container */}
-      <div className="lg:homepage-container relative min-h-screen lg:px-16"> {/* Apply padding on large screens only */}
+      <div className="lg:homepage-container relative min-h-screen "> {/* Apply padding on large screens only */}
   <div className="relative">
     {/* Overlay */}
     <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div> {/* Semi-transparent black overlay */}
