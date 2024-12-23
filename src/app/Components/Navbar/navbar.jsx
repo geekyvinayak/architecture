@@ -1,11 +1,19 @@
 'use client'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+   if(menuOpen){
+    document.body.classList.add('overflow-y-hidden');
+   }else{
+    document.body.classList.remove('overflow-y-hidden');
+   }
+  }, [menuOpen])
 
   return (
     <header className="bg-white text-black shadow-lg w-full z-50">
