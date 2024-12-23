@@ -10,7 +10,7 @@ const SlickSlider = ({ images }) => {
   const isMobile = typeof window !== "undefined" && window.innerWidth < 767;
 
   const [loaded, setLoaded] = useState(
-    images.map(() => false) // Initialize loading state for each image
+    images.map(() => false), // Initialize loading state for each image
   );
 
   const handleImageLoad = (index) => {

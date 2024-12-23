@@ -1,1 +1,1 @@
-export {default} from './OurProcess'
+export { default } from "./OurProcess";

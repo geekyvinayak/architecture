@@ -5,7 +5,7 @@ import ProductDetails from "../../Components/ProjectDetailsHead";
 export default function ProjectDetails() {
   return (
     <div>
-        <ProductDetails />
+      <ProductDetails />
     </div>
   );
 }

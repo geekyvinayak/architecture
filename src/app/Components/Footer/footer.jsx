@@ -2,15 +2,22 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-12" id='footer'>
+    <footer className="bg-white py-12" id="footer">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Heading */}
         <h2 className="text-2xl font-semibold mb-8">Lets Connect!</h2>
 
         {/* Subscription Form */}
-        <form className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center" method='POST' action='https://formsubmit.co/z@gmail.com'>
+        <form
+          className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center"
+          method="POST"
+          action="https://formsubmit.co/z@gmail.com"
+        >
           <div className="flex flex-col">
-            <label htmlFor="firstName" className="text-sm font-medium text-start">
+            <label
+              htmlFor="firstName"
+              className="text-sm font-medium text-start"
+            >
               Name *
             </label>
             <input
@@ -23,7 +30,10 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col">
-            <label htmlFor="lastName" className="text-sm font-medium text-start">
+            <label
+              htmlFor="lastName"
+              className="text-sm font-medium text-start"
+            >
               Phone *
             </label>
             <input
@@ -60,8 +70,16 @@ const Footer = () => {
               className="w-full border-b border-black outline-none focus:ring-0 py-2"
             />
           </div>
-          <input type="hidden" name="_subject" value="New submission! at Maitri Associates" />
-          <input type="hidden" name="_next" value="http://localhost:3000/thankyou" />
+          <input
+            type="hidden"
+            name="_subject"
+            value="New submission! at Maitri Associates"
+          />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://localhost:3000/thankyou"
+          />
           <input type="hidden" name="_template" value="table" />
           <div className="col-span-full text-right">
             <button
@@ -100,8 +118,8 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <p className="text-gray-500 text-sm mt-8">
-        &copy; {new Date().getFullYear()} Maitri Associates. All Rights Reserved.
-          
+          &copy; {new Date().getFullYear()} Maitri Associates. All Rights
+          Reserved.
         </p>
       </div>
     </footer>

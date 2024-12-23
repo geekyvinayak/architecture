@@ -6,10 +6,10 @@ import Philosophy from "../Components/Philosphy";
 export default function Home() {
   return (
     <>
-    <Hero />
-    <ServicesSection />
-    <Projects />
-    <Philosophy />
-  </>
+      <Hero />
+      <ServicesSection />
+      <Projects />
+      <Philosophy />
+    </>
   );
 }

@@ -1,1 +1,1 @@
-export {default} from './Philosphy'
+export { default } from "./Philosphy";

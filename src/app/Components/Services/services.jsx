@@ -5,24 +5,26 @@ const MyServices = () => {
     {
       id: 1,
       src: "/images/service_1.webp",
-      title: "Home Styling Workshop",
+      title: "Architecture Projects",
     },
     {
       id: 2,
       src: "/images/service_2.jpeg",
-      title: "Full Interior Styling",
+      title: "Office Interior Projects",
     },
     {
       id: 3,
       src: "/images/service_3.jpeg",
-      title: "Small Space Makeover",
+      title: "Residence Interior projects",
     },
   ];
 
   return (
     <section className="bg-[#fef8f4] py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">Services</h1>
+        <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">
+          Services
+        </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {services.map((service) => (
             <div
