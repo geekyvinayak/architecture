@@ -29,7 +29,6 @@ export default function RootLayout({ children }) {
         {/* Open Graph Meta Tags for Social Media */}
         <meta property="og:title" content="Maitri Associates | Interior Design in Vadodara" />
         <meta property="og:description" content="Expert interior design services for homes and offices in Vadodara. Maitri Associates brings your vision to life with elegant and functional designs." />
-        <meta property="og:image" content="/images/architecture projects/hotel elevation at anand/main photo/1. front view.webp" />
         <meta property="og:url" content="https://www.maitriassociates.in" />
         <meta property="og:type" content="website" />
         
