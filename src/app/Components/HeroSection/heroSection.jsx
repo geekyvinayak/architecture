@@ -14,7 +14,7 @@ export default function HeroSection() {
           <div
             className="ImageBackgroundWrap flex bg-cover bg-center bg-fixed h-[100vh]"
             style={{
-              backgroundImage: "url(/images/herosection.avif)",
+              backgroundImage: "url(/images/hero.webp)",
             }}
           >
             {/* Content Section */}
@@ -22,13 +22,9 @@ export default function HeroSection() {
               {" "}
               {/* Ensure content is above overlay */}
               <div className="TextBackground bg-opacity-80 p-12 text-center text-white">
-                <h2 className="text-3xl font-bold">CONTENT HEADING HERE</h2>
+                <h2 className="text-3xl font-bold">Maitri Associates</h2>
                 <p className="mt-4 text-lg font-bold">
-                  Lorem ipsum dolor sit amet, nec ea nihil nostrum accommodare,
-                  in usu movet consul regione. Option delicata vis te, vim
-                  fierent tacimates ex. An qui posse facer, pri an unum malis
-                  persecuti. Partiendo comprehensam mediocritatem vel eu, ei
-                  saepe mollis accusamus.
+                  A TRUE FRIEND FOR YOU HOME
                 </p>
               </div>
             </div>

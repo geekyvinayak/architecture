@@ -1,7 +1,7 @@
 import Hero from "../Components/HeroSection";
 import Projects from "../Components/Projects";
 import ServicesSection from "../Components/Services";
-import Philosophy from "../Components/Philosphy";
+// import Philosophy from "../Components/Philosphy";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <ServicesSection />
       <Projects />
-      <Philosophy />
+      {/* <Philosophy /> */}
     </>
   );
 }

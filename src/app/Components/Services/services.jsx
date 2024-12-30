@@ -4,17 +4,17 @@ const MyServices = () => {
   const services = [
     {
       id: 1,
-      src: "/images/service_1.webp",
+      src: "/images/OUR SERVICES PHOTOS/ARCHITECTURAL DESIGN.webp",
       title: "Architecture Projects",
     },
     {
       id: 2,
-      src: "/images/service_2.jpeg",
+      src: "/images/OUR SERVICES PHOTOS/OFFICE INTERIOR DESIGN.webp",
       title: "Office Interior Projects",
     },
     {
       id: 3,
-      src: "/images/service_3.jpeg",
+      src: "/images/OUR SERVICES PHOTOS/RESIDENCE INTERIOR DESIGN.webp",
       title: "Residence Interior projects",
     },
   ];

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,14 +18,15 @@ export default function Navbar() {
 
   return (
     <header className="bg-white text-black shadow-lg w-full z-50">
-      <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <nav className="container mx-auto px-6  flex justify-between items-center">
         <a href="/">
-          <div className="text-2xl font-bold">LOGO</div>
+          {/* <div className="text-2xl font-bold">Maitri Associates</div> */}
+          <Image src={"/logo.png"} width={80} height={50} alt="main" />
         </a>
 
         <div className="hidden md:flex space-x-6">
-          <a href="/about-us" className="hover:text-gray-600">
-            About
+          <a href="/projects" className="hover:text-gray-600">
+            Projects
           </a>
           <a href="#footer" className="hover:text-gray-600">
             Lets Connect!
@@ -51,11 +53,11 @@ export default function Navbar() {
           {/* mt-16 for navbar height */}
           <div className="flex flex-col space-y-6 text-xl">
             <a
-              href="/about-us"
+              href="/projects"
               className="hover:text-gray-600"
               onClick={() => setMenuOpen(!menuOpen)}
             >
-              About
+              Projects
             </a>
             <a
               href="#footer"
