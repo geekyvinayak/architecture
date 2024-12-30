@@ -11,7 +11,7 @@ export default function HeroSection() {
   return (
     <section className="space-y-16">
       {/* Background Image Section with Container */}
-      <div className="lg:homepage-container relative min-h-screen ">
+      <div className="lg:homepage-container relative lg:min-h-screen min-h-[50vh]">
         {" "}
         {/* Apply padding on large screens only */}
         <div className="relative">
@@ -20,13 +20,13 @@ export default function HeroSection() {
           {/* Semi-transparent black overlay */}
           {/* Background Image Section */}
           <div
-            className="ImageBackgroundWrap flex bg-cover bg-center bg-fixed h-[100vh]"
+            className="ImageBackgroundWrap flex bg-cover  bg-center bg-fixed lg:h-[100vh] h-[50vh]"
             style={{
               backgroundImage: "url(/images/hero.webp)",
             }}
           >
             {/* Content Section */}
-            <div className="self-end max-w-4xl mx-auto pt-32 pb-24 mb-10 relative z-20">
+            <div className="self-end max-w-4xl mx-auto pt-32 lg:pb-24 pb-5 mb-10 relative z-20">
               {" "}
               {/* Ensure content is above overlay */}
               <div className="TextBackground bg-opacity-80 p-12 text-center text-white">
@@ -34,7 +34,7 @@ export default function HeroSection() {
                 <p className="mt-4 text-lg font-bold">
                   A TRUE FRIEND FOR YOU HOME
                 </p>
-                <div onClick={handleScroll} className="absolute left-1/2 bottom-10 transform -translate-x-1/2 animate-bounce">
+                <div onClick={handleScroll} className="absolute left-1/2 bottom-5 lg:bottom-10 transform -translate-x-1/2 animate-bounce">
             <svg
               className="w-10 h-10 text-white"
               fill="none"

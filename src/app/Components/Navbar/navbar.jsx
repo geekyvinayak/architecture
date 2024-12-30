@@ -48,7 +48,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="fixed top-0 left-0 w-full h-full bg-white  z-40 flex justify-center items-center mt-16">
+        <div className="fixed top-0 left-0 w-full h-full bg-white  z-40 flex justify-center items-center mt-12">
           {" "}
           {/* mt-16 for navbar height */}
           <div className="flex flex-col space-y-6 text-xl">
