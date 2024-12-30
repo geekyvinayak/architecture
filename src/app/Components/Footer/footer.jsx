@@ -92,7 +92,7 @@ const Footer = () => {
         </form>
 
         {/* Social Media Links */}
-        <div className="flex justify-center mt-12 gap-4">
+        {/* <div className="flex justify-center mt-12 gap-4">
           <a
             href="#"
             className="p-2 bg-black text-white rounded-full hover:bg-gray-700"
@@ -114,7 +114,7 @@ const Footer = () => {
           >
             <FaLinkedinIn />
           </a>
-        </div>
+        </div> */}
 
         {/* Footer Bottom */}
         <p className="text-gray-500 text-sm mt-8">
