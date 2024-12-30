@@ -11,7 +11,7 @@ const Footer = () => {
         <form
           className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center"
           method="POST"
-          action="https://formsubmit.co/z@gmail.com"
+          action="https://formsubmit.co/hemanshivadher123@gmail.com"
         >
           <div className="flex flex-col">
             <label

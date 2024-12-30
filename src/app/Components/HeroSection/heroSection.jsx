@@ -1,5 +1,13 @@
 "use client";
 export default function HeroSection() {
+  const handleScroll = () => {
+    console.log("cms")
+    const nextSection = document.getElementById('service-section');
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="space-y-16">
       {/* Background Image Section with Container */}
@@ -26,6 +34,22 @@ export default function HeroSection() {
                 <p className="mt-4 text-lg font-bold">
                   A TRUE FRIEND FOR YOU HOME
                 </p>
+                <div onClick={handleScroll} className="absolute left-1/2 bottom-10 transform -translate-x-1/2 animate-bounce">
+            <svg
+              className="w-10 h-10 text-white"
+              fill="none"
+              stroke="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              strokeWidth="2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </div>
               </div>
             </div>
           </div>

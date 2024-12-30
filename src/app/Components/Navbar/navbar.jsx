@@ -21,10 +21,10 @@ export default function Navbar() {
       <nav className="container mx-auto px-6  flex justify-between items-center">
         <a href="/">
           {/* <div className="text-2xl font-bold">Maitri Associates</div> */}
-          <Image src={"/logo.png"} width={80} height={50} alt="main" />
+          <Image src={"/logo.png"} width={50} height={50} alt="main" />
         </a>
 
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden md:flex space-x-6 mt-2">
           <a href="/projects" className="hover:text-gray-600">
             Projects
           </a>

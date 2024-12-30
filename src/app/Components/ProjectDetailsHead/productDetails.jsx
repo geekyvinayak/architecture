@@ -59,3 +59,4 @@ export default function ProductDetails() {
     </section>
   );
 }
+
