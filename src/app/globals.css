@@ -29,6 +29,18 @@ html {
  z-index: 10000 !important;
 }
 
+.ImageBackgroundWrap {
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll; /* Ensures no unexpected behavior on mobile */
+}
+
+@media (min-width: 1024px) {
+  .ImageBackgroundWrap {
+    background-attachment: fixed; /* Apply fixed background only on larger screens */
+  }
+}
+
 .slick-prev:before, .slick-next:before {
   display: none;
   }

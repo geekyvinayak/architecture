@@ -18,11 +18,11 @@ export default function HeroSection() {
 
       {/* Background Image Section */}
       <div
-        className="ImageBackgroundWrap flex bg-cover bg-center bg-fixed lg:h-[100vh] h-[50vh] sm:bg-top"
-        style={{
-          backgroundImage: "url(/images/hero.webp)",
-        }}
-      >
+  className="ImageBackgroundWrap flex bg-cover bg-center lg:bg-fixed bg-scroll lg:h-[100vh] h-[50vh] sm:bg-top"
+  style={{
+    backgroundImage: "url(/images/hero.webp)",
+  }}
+>
         {/* Content Section */}
         <div className="self-end max-w-4xl mx-auto pt-32 lg:pb-24 pb-5 mb-10 relative z-20">
           <div className="TextBackground bg-opacity-80 p-8 lg:p-12 text-center text-white">
