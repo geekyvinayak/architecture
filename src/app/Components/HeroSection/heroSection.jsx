@@ -11,14 +11,14 @@ export default function HeroSection() {
   return (
     <section className="space-y-16">
   {/* Background Image Section with Container */}
-  <div className="lg:homepage-container relative lg:min-h-screen min-h-[50vh]">
+  <div className="lg:homepage-container relative min-h-screen ">
     <div className="relative">
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
 
       {/* Background Image Section */}
       <div
-  className="ImageBackgroundWrap flex bg-cover bg-center lg:bg-fixed bg-scroll lg:h-[100vh] h-[50vh] sm:bg-top"
+  className="ImageBackgroundWrap flex bg-cover bg-center lg:bg-fixed bg-scroll h-[100vh]  sm:bg-top"
   style={{
     backgroundImage: "url(/images/hero.webp)",
   }}
