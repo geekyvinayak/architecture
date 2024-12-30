@@ -32,7 +32,7 @@ export default function HeroSection() {
             </p>
             <div
               onClick={handleScroll}
-              className="absolute left-1/2 bottom-5 lg:bottom-10 transform -translate-x-1/2 animate-bounce"
+              className="absolute ml-[-15px] left-1/2 bottom-5 lg:bottom-10 transform -translate-x-1/2 animate-bounce"
             >
               <svg
                 className="w-8 h-8 lg:w-10 lg:h-10 text-white"
