@@ -20,7 +20,7 @@ export default function HeroSection() {
           {/* Semi-transparent black overlay */}
           {/* Background Image Section */}
           <div
-            className="ImageBackgroundWrap flex bg-cover  bg-center bg-fixed lg:h-[100vh] h-[50vh]"
+            className="ImageBackgroundWrap flex lg:bg-cover bg-contain  bg-center bg-fixed lg:h-[100vh] h-[50vh]"
             style={{
               backgroundImage: "url(/images/hero.webp)",
             }}
